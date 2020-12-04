@@ -4,16 +4,20 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+let userChoice = "";
+let compChoice = "";
+let winner = "";
+let randomNumber = 0;
 
-document.querySelector("#shoot").onclick=function(){
-   let userinput = document.getElementById("input").value;
+document.querySelector("#shoot").onclick = function() {
+  userChoice = $('input[name="choice"]:checked').val();
+  randomNumber = Math.random();
+
   //computer input
-   document.querySelector("#userChoice").innerHTML = `${userinput}`;
-  //document.querySelector("#computerChoice").innerHTML = `${randominput}`;
-  
+  document.querySelector("#userChoice").innerHTML = `${userChoice}`;
+  document.querySelector("#computerChoice").innerHTML = `${compChoice}`;
+
   //conditionals
-  
+
   //who won
 };
-
-
