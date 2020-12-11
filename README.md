@@ -46,14 +46,14 @@ In this unit, coders will create a Rock, Paper, Scissors game. To create this pr
 - [ ] Clear the input value once a result is displayed.
 
 #### Wrap
-- [ ] Save and submit your website using the link on the session agenda.
+- [x] Save and submit your website using the link on the session agenda.
 
 
 ## Projects Extensions:
-- [ ] Style your page to fit the developer's personality
+- [x] Style your page to fit the developer's personality
 - [x] Validate the input so that it will return “Not valid input” if the user types in a wrong choice. 
 - [x] Accept any form of a word regardless of capitalization (i.e. “Rock” “rock” roCk”)
-- [ ] Keep track of total wins and losses, until the page refreshes. 
+- [x] Keep track of total wins and losses, until the page refreshes. 
 - [ ] Allow for more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
 
 ## References/Tools
