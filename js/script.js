@@ -19,8 +19,8 @@ document.querySelector("#shoot").onclick = function() {
   if (userChoice === undefined) {
     document.querySelector("#userChoice").innerHTML = "";
     document.querySelector("#computerChoice").innerHTML = "";
-    document.querySelector("#result").innerHTML = "Select your choice!";
-    document.querySelector("#result").style.border = "none"
+    document.querySelector("#result").innerHTML = `<h2>Select your choice!</h2>`;
+    document.querySelector("#result").style.border = "black solid 3px"
   }
   else {
     //computer choice
@@ -57,18 +57,18 @@ document.querySelector("#shoot").onclick = function() {
 
     //result
     if (winner === "player") {
-      document.querySelector("#result").innerHTML = "You win!";
+      document.querySelector("#result").innerHTML = `<h2>You win!</h2>`;
       playerWins = playerWins + 1;
-      document.querySelector("#result").style.border = "green solid 2px"
+      document.querySelector("#result").style.border = "green solid 3px"
     }
     else if (winner === "computer") {
-      document.querySelector("#result").innerHTML = "You lose...";
+      document.querySelector("#result").innerHTML = `<h2>You lose...</h2>`;
       computerWins = computerWins + 1;
-      document.querySelector("#result").style.border = "red solid 2px"
+      document.querySelector("#result").style.border = "red solid 3px"
     }
     else if (winner === "tie") {
-      document.querySelector("#result").innerHTML = "It's a tie! Try again";
-      document.querySelector("#result").style.border = "orange dotted 2px"
+      document.querySelector("#result").innerHTML = `<h2>It's a tie! Try again</h2>`;
+      document.querySelector("#result").style.border = "orange solid 3px"
     }
     
     //changing number of wins
