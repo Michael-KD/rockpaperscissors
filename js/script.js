@@ -17,8 +17,8 @@ document.querySelector("#shoot").onclick = function() {
   randomNumber = Math.random();
 
   if (userChoice === undefined) {
-    document.querySelector("#userChoice").innerHTML = "";
-    document.querySelector("#computerChoice").innerHTML = "";
+    document.querySelector("#userChoice").innerHTML = `<br>`;
+    document.querySelector("#computerChoice").innerHTML = `<br>`;
     document.querySelector("#result").innerHTML = `<h2>Select your choice!</h2>`;
     document.querySelector("#result").style.border = "black solid 3px"
   }
