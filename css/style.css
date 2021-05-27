@@ -4,6 +4,8 @@
 }
 #choices{
   display:flex;
-  justify-content:space-between;
-  
+  justify-content:space-between; 
+}
+#result{
+  display: inline;
 }
